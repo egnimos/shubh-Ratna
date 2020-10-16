@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "455566432459",
+    "firebase_url": "https://srhotel-5cc6e.firebaseio.com",
+    "project_id": "srhotel-5cc6e",
+    "storage_bucket": "srhotel-5cc6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455566432459:android:cb7de90ca48da9d0e6634e",
+        "android_client_info": {
+          "package_name": "com.niteesh.restaurantSR"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455566432459-040hu6gue4r3epifn804fjtj6adntkud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.niteesh.restaurantSR",
+            "certificate_hash": "011bd699150de9b79a1f7099534d1c1f059beff2"
+          }
+        },
+        {
+          "client_id": "455566432459-quirbcgjcqkufaq32kvc4vhv10m93a06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALa1jCb0PQt88dSDRWKStlj0tAJ-7V7nQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455566432459-quirbcgjcqkufaq32kvc4vhv10m93a06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
