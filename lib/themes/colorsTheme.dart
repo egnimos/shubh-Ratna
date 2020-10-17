@@ -16,12 +16,12 @@ class ColorsTheme {
   static const Color appTriadicColor1 = Color(0xFF49E60B);
 
   //Icon colors
-  static const Color primaryIconColor = Colors.white;
-  static const Color secondaryIconColor = Color(0xFF121212);
+  static const Color primaryIconColor = Color(0xFF121212);
+  static const Color secondaryIconColor = Colors.white;
 
   //text Colors
-  static const Color primaryTextColor = Colors.white;
-  static const Color secondaryTextColor = Color(0xFF121212);
+  static const Color primaryTextColor = Color(0xFF121212);
+  static const Color secondaryTextColor = Colors.white;
 
   //background Colors
   static Color backgroundColor = Colors.white; //at 00dp

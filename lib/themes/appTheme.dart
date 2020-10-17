@@ -8,7 +8,7 @@ class AppTheme {
 
   //light theme
   static final ThemeData lightTheme = ThemeData(
-    brightness: Brightness.dark,
+    // brightness: Brightness.dark,
     applyElevationOverlayColor: true,
     canvasColor: Colors.transparent,
     primaryColor: ColorsTheme.appPrimaryColor,
@@ -20,7 +20,7 @@ class AppTheme {
 
   //appbartheme
   static final AppBarTheme appBarTheme = AppBarTheme(
-    brightness: Brightness.dark,
+    brightness: Brightness.light,
     iconTheme: IconThemeData(color: ColorsTheme.primaryIconColor),
     color: ColorsTheme.appBarBackgroundColor,
     elevation: 4.0,
