@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:restaurantApp/screens/home.dart';
 // import 'package:restaurantApp/config/responsive.dart';
 
 //login button
@@ -14,7 +15,9 @@ Widget login(BuildContext context) {
     ),
     color: Theme.of(context).primaryColor,
     hoverColor: Theme.of(context).primaryColorLight,
-    onPressed: () {},
+    onPressed: () {
+      Navigator.of(context).pushNamed(Home.routeName);
+    },
     icon: Icon(
       FontAwesomeIcons.google,
       color: Colors.white,

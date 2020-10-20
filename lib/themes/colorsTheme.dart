@@ -28,15 +28,15 @@ class ColorsTheme {
   static Color appBarBackgroundColor = Colors.white; //at 04dp
 
   // //colors at different DP
-  // static Color dp01Color = Color(0xFF1D1D1D); //at 01dp
-  // static Color dp02Color = Color(0xFF212121); //at 02dp
-  // static Color dp03Color = Color(0xFF242424); //at 03dp
-  // static Color dp04Color = Color(0xFF262626); //at 04dp
-  // static Color dp06Color = Color(0xFF2C2C2C); //at 06dp
-  // static Color dp08Color = Color(0xFF2D2D2D); //at 08dp
-  // static Color dp12Color = Color(0xFF323232); //at 12dp
-  // static Color dp16Color = Color(0xFF353535); //at 16dp
-  // static Color dp24Color = Color(0xFF373737); //at 24dp
+  static Color dp01Color = Color(0xFF1D1D1D); //at 01dp
+  static Color dp02Color = Color(0xFF212121); //at 02dp
+  static Color dp03Color = Color(0xFF242424); //at 03dp
+  static Color dp04Color = Color(0xFF262626); //at 04dp
+  static Color dp06Color = Color(0xFF2C2C2C); //at 06dp
+  static Color dp08Color = Color(0xFF2D2D2D); //at 08dp
+  static Color dp12Color = Color(0xFF323232); //at 12dp
+  static Color dp16Color = Color(0xFF353535); //at 16dp
+  static Color dp24Color = Color(0xFF373737); //at 24dp
 
   //error colors
   static Color errorColor = Color(0xFFCF6679);

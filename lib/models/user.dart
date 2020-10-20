@@ -24,7 +24,7 @@ class CurrentUser {
   });
 
   //from json
-  factory CurrentUser.fromJson(DocumentSnapshot doc) {
+  factory CurrentUser.fromJSON(DocumentSnapshot doc) {
     return CurrentUser(
       id: doc.data()["id"],
       displayName: doc.data()["displayName"],
@@ -38,7 +38,7 @@ class CurrentUser {
   }
 
   //to json
-  Map<String, dynamic> toJson(CurrentUser user) {
+  Map<String, dynamic> toJSON(CurrentUser user) {
     final Map<String, dynamic> data = Map<String, dynamic>();
     data["id"] = user.id;
     data["displayName"] = user.displayName;

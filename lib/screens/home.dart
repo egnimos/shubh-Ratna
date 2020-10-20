@@ -6,6 +6,8 @@ import 'package:restaurantApp/screens/timeline.dart';
 import 'package:restaurantApp/themes/colorsTheme.dart';
 
 class Home extends StatefulWidget {
+  static const routeName = "/home";
+
   @override
   _HomeState createState() => _HomeState();
 }
@@ -49,20 +51,31 @@ class _HomeState extends State<Home> {
             textAlign: TextAlign.center,
             icon: Icon(
               Icons.home,
-              color: Colors.white,
+              color: ColorsTheme.dp08Color,
             ),
-            title: Text("Home", style: Theme.of(context).textTheme.bodyText2),
-            activeColor: Colors.grey.shade200,
+            title: Text(
+              "home",
+              style: Theme.of(context).textTheme.bodyText2.copyWith(
+                    fontWeight: FontWeight.w700,
+                    color: ColorsTheme.dp08Color,
+                  ),
+            ),
+            activeColor: Colors.grey.shade600,
           ),
           BottomNavyBarItem(
             textAlign: TextAlign.center,
             icon: Icon(
               Icons.person,
-              color: Colors.white,
+              color: ColorsTheme.dp08Color,
             ),
-            title:
-                Text("Profile", style: Theme.of(context).textTheme.bodyText2),
-            activeColor: Colors.grey.shade200,
+            title: Text(
+              "profile",
+              style: Theme.of(context).textTheme.bodyText2.copyWith(
+                    fontWeight: FontWeight.w600,
+                    color: ColorsTheme.dp08Color,
+                  ),
+            ),
+            activeColor: Colors.grey.shade500,
           ),
         ],
       ),
